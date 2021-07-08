@@ -9,8 +9,6 @@ rect.addEventFilter(MouseEvent.MOUSE_CLICKED, evt -> {
 ```
 ```            
 rect.addEventFilter(MouseEvent.MOUSE_CLICKED, evt -> {
-
             print("2");
-            
             //evt.consume();});
 ```
