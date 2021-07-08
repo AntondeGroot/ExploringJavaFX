@@ -23,16 +23,16 @@ public class Main extends Application {
         });
         root.addEventFilter(MouseEvent.MOUSE_CLICKED, evt -> {
             System.out.println("root click(filter)2");
-        //evt.consume();
+        evt.consume();
         });
 
         root.setOnMouseClicked(evt -> {
             System.out.println("root click(handler)3");
-        //evt.consume();
+        evt.consume();
         });
         rect.setOnMouseClicked(evt -> {
             System.out.println("rect click(handler)4");
-        //evt.consume();
+        evt.consume();
         });
 
         Scene scene = new Scene(root, 200, 200);
@@ -40,6 +40,7 @@ public class Main extends Application {
         primaryStage.setScene(scene);
         primaryStage.show();
     }
+
 
     public static void main(String[] args) {
         launch(args);
