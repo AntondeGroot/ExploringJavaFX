@@ -35,3 +35,5 @@ An event will travel through all nodes. So first the root will handle the event,
 - The controller in the .fxml file does not need to know the folder in which the controller is located,  "java.controllerName" -> "controllerName"
 - FXMLloader just use getResource("file.fxml") instead of "../resources/file.fxml" or a variation of that.
 - Reload the POM file
+
+<img src="readmeImages/pom.png" alt="alt text" width="200" height="">
