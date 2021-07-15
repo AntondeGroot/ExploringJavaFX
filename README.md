@@ -37,3 +37,5 @@ An event will travel through all nodes. So first the root will handle the event,
 - Reload the POM file
 
 <img src="readmeImages/pom.png" alt="alt text" width="200" height="">
+
+If you can't see the POM file go to the top left and select "project".
