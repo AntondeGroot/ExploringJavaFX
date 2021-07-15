@@ -28,4 +28,9 @@ An event will travel through all nodes. So first the root will handle the event,
 
 **Combining Maven with JavaFX and Scenebuilder**
 
-- Item 1 Start a Maven project
+- Start a Maven project: it creates a Java and a Resources folder
+- Create a different JavaFX project and copy those files
+- Move the code to the Java folder
+- Move the .fxml file to the Resources folder
+- The controller in the .fxml file does not need to know the folder in which the controller is located,  "java.controllerName" -> "controllerName"
+- FXMLloader just use getResource("file.fxml") instead of "../resources/file.fxml" or a variation of that.
